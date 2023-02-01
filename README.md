@@ -1,1 +1,1 @@
-# school
+# devops-netology
