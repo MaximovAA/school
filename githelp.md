@@ -1,3 +1,4 @@
+```git
 …or create a new repository on the command line
 
 echo "# terraform-03" >> README.md
@@ -13,3 +14,4 @@ git push -u origin main
 git remote add origin git@github.com:MaximovAA/terraform-03.git
 git branch -M main
 git push -u origin main
+```
