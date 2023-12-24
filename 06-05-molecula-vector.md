@@ -61,8 +61,8 @@ changed: [localhost] => (item={'image': 'centos:7', 'name': 'centos'})
 ok: [localhost] => (item={'image': 'ubuntu:latest', 'name': 'ubuntu'})
 
 TASK [Discover local Docker images] ********************************************
-ok: [localhost] => (item={'diff': [], 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_centos_7', 'src': '/root/.ansible/tmp/ansible-tmp-1703424076.8615766-17245-17160011342268/source', 'md5sum': '7cd3068447b3fa64265b301e56637814', 'checksum': '86cf5647c3542cd3e8a18787ace2eb98422f513d', 'changed': True, 'uid': 0, 'gid': 0, 'owner': 'root', 'group': 'root', 'mode': '0600', 'state': 'file', 'size': 1037, 'invocation': {'module_args': {'src': '/root/.ansible/tmp/ansible-tmp-1703424076.8615766-17245-17160011342268/source', 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_centos_7', 'mode': '0600', 'follow': False, '_original_basename': 'Dockerfile.j2', 'checksum': '86cf5647c3542cd3e8a18787ace2eb98422f513d', 'backup': False, 'force': True, 'unsafe_writes': False, 'content': None, 'validate': None, 'directory_mode': None, 'remote_src': None, 'local_follow': None, 'owner': None, 'group': None, 'seuser': None, 'serole': None, 'selevel': None, 'setype': None, 'attributes': None}}, 'failed': False, 'item': {'image': 'centos:7', 'name': 'centos'}, 'ansible_loop_var': 'item', 'i': 0, 'ansible_index_var': 'i'})
-ok: [localhost] => (item={'diff': [], 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_ubuntu_latest', 'src': '/root/.ansible/tmp/ansible-tmp-1703424077.1725724-17245-158371203898604/source', 'md5sum': '4b5371d46746a8dc9fc3cc8bb66381ad', 'checksum': 'c75aaabd95b5bd8d709c54e533f97bb910802695', 'changed': True, 'uid': 0, 'gid': 0, 'owner': 'root', 'group': 'root', 'mode': '0600', 'state': 'file', 'size': 1042, 'invocation': {'module_args': {'src': '/root/.ansible/tmp/ansible-tmp-1703424077.1725724-17245-158371203898604/source', 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_ubuntu_latest', 'mode': '0600', 'follow': False, '_original_basename': 'Dockerfile.j2', 'checksum': 'c75aaabd95b5bd8d709c54e533f97bb910802695', 'backup': False, 'force': True, 'unsafe_writes': False, 'content': None, 'validate': None, 'directory_mode': None, 'remote_src': None, 'local_follow': None, 'owner': None, 'group': None, 'seuser': None, 'serole': None, 'selevel': None, 'setype': None, 'attributes': None}}, 'failed': False, 'item': {'image': 'ubuntu:latest', 'name': 'ubuntu'}, 'ansible_loop_var': 'item', 'i': 1, 'ansible_index_var': 'i'})
+ok: [localhost] => (item={'diff': [], 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_centos_7', 'src': '/root/.ansible/tmp/ansible-tmp-1703445697.2320118-156965-273155919385308/source', 'md5sum': '7cd3068447b3fa64265b301e56637814', 'checksum': '86cf5647c3542cd3e8a18787ace2eb98422f513d', 'changed': True, 'uid': 0, 'gid': 0, 'owner': 'root', 'group': 'root', 'mode': '0600', 'state': 'file', 'size': 1037, 'invocation': {'module_args': {'src': '/root/.ansible/tmp/ansible-tmp-1703445697.2320118-156965-273155919385308/source', 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_centos_7', 'mode': '0600', 'follow': False, '_original_basename': 'Dockerfile.j2', 'checksum': '86cf5647c3542cd3e8a18787ace2eb98422f513d', 'backup': False, 'force': True, 'unsafe_writes': False, 'content': None, 'validate': None, 'directory_mode': None, 'remote_src': None, 'local_follow': None, 'owner': None, 'group': None, 'seuser': None, 'serole': None, 'selevel': None, 'setype': None, 'attributes': None}}, 'failed': False, 'item': {'image': 'centos:7', 'name': 'centos'}, 'ansible_loop_var': 'item', 'i': 0, 'ansible_index_var': 'i'})
+ok: [localhost] => (item={'diff': [], 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_ubuntu_latest', 'src': '/root/.ansible/tmp/ansible-tmp-1703445697.5380144-156965-203924962516369/source', 'md5sum': '4b5371d46746a8dc9fc3cc8bb66381ad', 'checksum': 'c75aaabd95b5bd8d709c54e533f97bb910802695', 'changed': True, 'uid': 0, 'gid': 0, 'owner': 'root', 'group': 'root', 'mode': '0600', 'state': 'file', 'size': 1042, 'invocation': {'module_args': {'src': '/root/.ansible/tmp/ansible-tmp-1703445697.5380144-156965-203924962516369/source', 'dest': '/root/.cache/molecule/vector-role/default/Dockerfile_ubuntu_latest', 'mode': '0600', 'follow': False, '_original_basename': 'Dockerfile.j2', 'checksum': 'c75aaabd95b5bd8d709c54e533f97bb910802695', 'backup': False, 'force': True, 'unsafe_writes': False, 'content': None, 'validate': None, 'directory_mode': None, 'remote_src': None, 'local_follow': None, 'owner': None, 'group': None, 'seuser': None, 'serole': None, 'selevel': None, 'setype': None, 'attributes': None}}, 'failed': False, 'item': {'image': 'ubuntu:latest', 'name': 'ubuntu'}, 'ansible_loop_var': 'item', 'i': 1, 'ansible_index_var': 'i'})
 
 TASK [Build an Ansible compatible image (new)] *********************************
 ok: [localhost] => (item=molecule_local/centos:7)
@@ -81,8 +81,8 @@ changed: [localhost] => (item=ubuntu)
 
 TASK [Wait for instance(s) creation to complete] *******************************
 FAILED - RETRYING: [localhost]: Wait for instance(s) creation to complete (300 retries left).
-changed: [localhost] => (item={'failed': 0, 'started': 1, 'finished': 0, 'ansible_job_id': 'j912841894104.17518', 'results_file': '/root/.ansible_async/j912841894104.17518', 'changed': True, 'item': {'image': 'centos:7', 'name': 'centos'}, 'ansible_loop_var': 'item'})
-changed: [localhost] => (item={'failed': 0, 'started': 1, 'finished': 0, 'ansible_job_id': 'j332357188.17543', 'results_file': '/root/.ansible_async/j332357188.17543', 'changed': True, 'item': {'image': 'ubuntu:latest', 'name': 'ubuntu'}, 'ansible_loop_var': 'item'})
+changed: [localhost] => (item={'failed': 0, 'started': 1, 'finished': 0, 'ansible_job_id': 'j36640649997.157240', 'results_file': '/root/.ansible_async/j36640649997.157240', 'changed': True, 'item': {'image': 'centos:7', 'name': 'centos'}, 'ansible_loop_var': 'item'})
+changed: [localhost] => (item={'failed': 0, 'started': 1, 'finished': 0, 'ansible_job_id': 'j444988280124.157265', 'results_file': '/root/.ansible_async/j444988280124.157265', 'changed': True, 'item': {'image': 'ubuntu:latest', 'name': 'ubuntu'}, 'ansible_loop_var': 'item'})
 
 PLAY RECAP *********************************************************************
 localhost                  : ok=9    changed=4    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0
@@ -99,16 +99,151 @@ ok: [centos]
 
 TASK [Include vector-role] *****************************************************
 
-TASK [vector-role : Get vector distrib] ****************************************
-fatal: [centos]: FAILED! => {"changed": false, "checksum_dest": null, "checksum_src": "0425ff071083302e50f6004cf9ae6678a0594f37", "dest": "vector-0.34.1.rpm", "elapsed": 7, "msg": "Destination  does not exist", "src": "/root/.ansible/tmp/ansible-tmp-1703424092.5831144-18228-100701532287492/tmp_NeZiS", "url": "https://packages.timber.io/vector/0.34.1/vector-0.34.1-1.x86_64.rpm"}
-fatal: [ubuntu]: FAILED! => {"changed": false, "checksum_dest": null, "checksum_src": "0425ff071083302e50f6004cf9ae6678a0594f37", "dest": "vector-0.34.1.rpm", "elapsed": 8, "msg": "Destination  does not exist", "src": "/root/.ansible/tmp/ansible-tmp-1703424092.6401775-18229-222591283853970/tmpiws2tt_y", "url": "https://packages.timber.io/vector/0.34.1/vector-0.34.1-1.x86_64.rpm"}
+TASK [vector-role : vector apt install tar] ************************************
+skipping: [centos]
+included: /root/ansible/roles/vector-role/tasks/pre_install/apt.yml for ubuntu
+
+TASK [vector-role : vector install tar] ****************************************
+ok: [ubuntu]
+
+TASK [vector-role : vector yum install tar] ************************************
+skipping: [ubuntu]
+included: /root/ansible/roles/vector-role/tasks/pre_install/yum.yml for centos
+
+TASK [vector-role : vector install tar] ****************************************
+ok: [centos]
+
+TASK [vector-role : Add a group vector] ****************************************
+changed: [ubuntu]
+changed: [centos]
+
+TASK [vector-role : Add user vector] *******************************************
+changed: [ubuntu]
+changed: [centos]
+
+TASK [vector-role : vector get distrib] ****************************************
+changed: [ubuntu]
+changed: [centos]
+
+TASK [vector-role : vector unpack distrib] *************************************
+[WARNING]: Relative destination path './' was resolved to absolute path '/'.
+changed: [ubuntu]
+changed: [centos]
+
+TASK [vector-role : vector install] ********************************************
+changed: [ubuntu]
+changed: [centos]
+
+TASK [vector-role : vector check installed version] ****************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector create data dir] ************************************
+changed: [centos]
+changed: [ubuntu]
+
+TASK [vector-role : write using jinja2] ****************************************
+changed: [centos]
+changed: [ubuntu]
+
+TASK [vector-role : vector | register as service] ******************************
+changed: [centos]
+changed: [ubuntu]
 
 PLAY RECAP *********************************************************************
-centos                     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
-ubuntu                     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+centos                     : ok=12   changed=8    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
+ubuntu                     : ok=12   changed=8    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
 
-CRITICAL Ansible return code was 2, command was: ['ansible-playbook', '--inventory', '/root/.cache/molecule/vector-role/default/inventory', '--skip-tags', 'molecule-notest,notest', '/root/ansible/roles/vector-role/molecule/default/converge.yml']
-WARNING  An error occurred during the test sequence action: 'converge'. Cleaning up.
+INFO     Running default > idempotence
+
+PLAY [Converge] ****************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [Include vector-role] *****************************************************
+
+TASK [vector-role : vector apt install tar] ************************************
+skipping: [centos]
+included: /root/ansible/roles/vector-role/tasks/pre_install/apt.yml for ubuntu
+
+TASK [vector-role : vector install tar] ****************************************
+ok: [ubuntu]
+
+TASK [vector-role : vector yum install tar] ************************************
+skipping: [ubuntu]
+included: /root/ansible/roles/vector-role/tasks/pre_install/yum.yml for centos
+
+TASK [vector-role : vector install tar] ****************************************
+ok: [centos]
+
+TASK [vector-role : Add a group vector] ****************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : Add user vector] *******************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector get distrib] ****************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector unpack distrib] *************************************
+[WARNING]: Relative destination path './' was resolved to absolute path '/'.
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector install] ********************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector check installed version] ****************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector create data dir] ************************************
+ok: [centos]
+ok: [ubuntu]
+
+TASK [vector-role : write using jinja2] ****************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [vector-role : vector | register as service] ******************************
+ok: [centos]
+ok: [ubuntu]
+
+PLAY RECAP *********************************************************************
+centos                     : ok=12   changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
+ubuntu                     : ok=12   changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
+
+INFO     Idempotence completed successfully.
+INFO     Running default > side_effect
+WARNING  Skipping, side effect playbook not configured.
+INFO     Running default > verify
+INFO     Running Ansible Verifier
+
+PLAY [Verify] ******************************************************************
+
+TASK [Gather Local Users] ******************************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [Gather Local Groups] *****************************************************
+ok: [ubuntu]
+ok: [centos]
+
+TASK [Gather Installed Packages] ***********************************************
+ok: [ubuntu]
+ok: [centos]
+
+PLAY RECAP *********************************************************************
+centos                     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+
+INFO     Verifier completed successfully.
 INFO     Running default > cleanup
 WARNING  Skipping, cleanup playbook not configured.
 INFO     Running default > destroy
